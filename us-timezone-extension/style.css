@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 360px;
+  background: #0f172a;
+  color: #f8fafc;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 19px;
+}
+
+header p {
+  color: #94a3b8;
+  font-size: 12px;
+  margin: 7px 0 0;
+}
+
+.live {
+  color: #86efac;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.live span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #22c55e;
+}
+
+.timezone {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid #263247;
+}
+
+.zone-code {
+  width: 57px;
+  padding: 9px 0;
+  text-align: center;
+  border-radius: 8px;
+  background: #1e293b;
+  color: #93c5fd;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.zone-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.zone-name {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.zone-date {
+  color: #94a3b8;
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.zone-right {
+  text-align: right;
+}
+
+.zone-time {
+  font-size: 15px;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.copy {
+  margin-top: 5px;
+  border: 0;
+  background: transparent;
+  color: #93c5fd;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.copy:hover {
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  color: #94a3b8;
+  font-size: 11px;
+}
+
+#refresh {
+  border: 0;
+  background: #1e293b;
+  color: white;
+  border-radius: 7px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 17px;
+}
+

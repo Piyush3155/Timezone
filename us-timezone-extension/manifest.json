@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "US Time Zone Clock",
+  "version": "1.0.0",
+  "description": "View live timestamps across five US time zones.",
+  "action": {
+    "default_title": "US Time Zone Clock",
+    "default_popup": "popup.html"
+  }
+}
+
