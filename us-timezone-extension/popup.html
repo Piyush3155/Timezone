@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,24 +7,28 @@
   <link rel="stylesheet" href="style.css" />
   <script src="popup.js" defer></script>
 </head>
-
 <body>
   <main class="container">
     <header>
-      <div>
-        <h1>US Time Zones</h1>
-        <p id="date">Loading date...</p>
-      </div>
-      <span class="live"><span></span> LIVE</span>
+        <div class="header-left">
+          <div class="logo">🌎</div>
+          <div>
+            <h1>US Time Zones</h1>
+            <p id="date">Loading date...</p>
+          </div>
+        </div>
+        <div class="live-badge">
+          <span class="live-dot"></span>
+          LIVE
+        </div>
     </header>
 
     <section id="timezone-list"></section>
 
     <footer>
-      <span>Updated every second</span>
-      <button id="refresh" title="Refresh times">↻</button>
+      <span>⏱ Updates every second</span>
+      <button id="refresh" title="Refresh times">↻ Refresh</button>
     </footer>
   </main>
 </body>
-
 </html>
